@@ -1,0 +1,155 @@
+body{
+    background-color: #DEEFE7;
+}
+#header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(49, 49, 49, 0.514)), url("/img/img_principal.jpg");
+    
+}
+#title-header{
+    color: white;
+    padding: 40vh 20px 0 20px;
+    text-align: center;    
+    letter-spacing: .2em;
+    
+}
+#title-header h1{
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+#title-header p{
+    font-weight: 100;
+    letter-spacing: .1em;
+}
+main{
+    padding-top: 10px;
+    
+    padding-bottom: 20px;
+}
+#section-carousel{
+    margin: 20px 0;
+}
+#section-text{
+    text-align: center;
+    margin: 10vh 0;
+}
+#section-text h2{
+    margin-bottom: 50px;
+    letter-spacing: .2em;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 4px 4px 5px rgba(119, 119, 119, 0.726);
+    text-transform: uppercase;
+}
+#section-text p{
+    letter-spacing: .2em;
+}
+#footer{
+    background-color: #002333;
+}
+.footer-itens{
+    text-align: center;
+    padding: 0 30px;
+    color: white;
+}
+.footer-itens .flex-row{
+    display: flex;
+    justify-content: center;
+}
+.footer-itens .flex-row li a{
+    font-size: 30px;
+}
+
+/*division config*/
+.division{
+    background-color: #002333;
+    width: 100%;
+    margin: 20px 0;
+}
+.line-top{
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 20px;
+}
+.line-bottom{
+    border-top: 2px solid black;
+    width: 100%;
+    height: 20px;
+}
+.division-text{
+    color: white;
+    max-width: 80vw;
+    margin: 10px auto;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*Classes do bootstrap*/
+.card-body{
+    text-align: center;
+}
+.card{
+    margin-bottom: 5vh;
+    background-color: transparent;
+}
+.card iframe{
+    height: 50vh;
+}
+.card-img-top{
+    box-shadow: 2px 5px 5px rgba(75, 75, 75, 0.733);
+}
+@media screen and (min-width: 700px) {
+    .division-text{
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        max-width: 60vw;
+    }
+    .card-body{
+        margin: 30px;
+    }
+    .card-title{
+        font-size: 40px;
+        margin: 5vh;
+    }
+
+    .card-text{
+        letter-spacing: .2em;
+        line-height: 40px;
+        max-width: 70vh;
+        margin: auto;
+    }
+    header{
+        margin-bottom: 15vh;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #title-header p{
+        margin: auto;
+        max-width: 50vw;
+        line-height: 40px;
+    }
+    #section-text{
+        text-align: center;
+        margin: 10vh 0;
+    }
+    #section-text h2{
+        font-size: 40px;
+    }
+    #section-text p{
+        letter-spacing: .2em;
+        line-height: 40px;
+        max-width: 70vh;
+        margin: auto;
+    }
+
+    .division-text{
+        padding: 30px;
+        font-size: 30px;
+        font-weight: 600;
+        max-width: 50vw;
+    }
+
+}
